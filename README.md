@@ -1,4 +1,4 @@
-# E-COMMERCE APPLICATION PROJEECT
+# E-COMMERCE APPLICATION PROJECT
 
 This software project consisting of three modules as product management, user management and order management. 
 First of all, product management codes consisting of specific products are creating for constructor. And then products adding to basket class. As a consequence, displayed all products in basket.
