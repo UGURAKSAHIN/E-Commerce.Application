@@ -1,49 +1,43 @@
-# E-Commerce Platform - Java Project
-# Project Overview
+# E-Commerce Platform (Java)
 
-This project is a modern e-commerce platform developed in Java, allowing users to:
+## Project Overview
+
+This repository contains a Java-based e-commerce platform. Core capabilities include:
+
 - Search for products
-- Add products to the shopping cart
+- Add products to a shopping cart (basket)
 - Manage user information
 - Place and track orders
 
-The project is designed to be scalable, making it suitable for both small businesses and large-scale enterprises
+The project is designed to be scalable and suitable for both small businesses and larger deployments.
 
-# Project Modules
+## Project Modules
 
-This software consists of three main modules:
+### Product Management
 
-# Product Management
-Creates and initializes product objects using constructors.
+- Creates and initializes product objects using constructors
+- Adds products to the `Basket` class
+- Displays all products in the basket
 
-Adds products to the Basket class.
+### User Management
 
-Displays all products in the basket.
+- Initializes products as parameters
+- Defines user information
+- Adds products to the user’s shopping cart
+- Displays shopping cart details
 
-# User Management
-Initializes products as parameters.
+### Order Management
 
-Defines user information.
+- Manages orders using `User` and `Order` classes
+- Initializes orders with a user and an empty product list
+- Adds products to the order via a method
+- Calculates the total price (iterating over products) and prints product prices
+- Places orders and prints order details
 
-Adds products to the user’s shopping cart.
+## Tech Stack & Tools
 
-Displays shopping cart details.
-
-# Order Management
-Manages user orders with User and Order classes.
-
-Initializes orders with a user and an empty product list.
-
-Adds products to the order using a method.
-
-Calculates the total price using a for loop and prints product prices to the console.
-
-Places orders and prints order details.
-
-# Tech Stack & Tools Used
-
-- Programming Language: Java
-- Build Tool: Maven
-- Testing Framework: JUnit
-- Database: MySQL (optional for order persistence)
-- Logging: SLF4J & Logback
+- **Language:** Java
+- **Build tool:** Maven
+- **Testing:** JUnit
+- **Database:** MySQL (optional, for order persistence)
+- **Logging:** SLF4J & Logback
