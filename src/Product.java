@@ -22,7 +22,11 @@ public class Product {
 }
 class Basket {
     // List to hold products in the basket
-    private List<Product> products;
+    
+    private List<Product> getProducts(){
+        return products;
+    }
+    
     // Constructor to initialize the basket with an empty product list
     public Basket() {
         products = new ArrayList<>();
