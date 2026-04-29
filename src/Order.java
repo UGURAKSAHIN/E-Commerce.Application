@@ -27,7 +27,7 @@ class User {
         return dateOfBirth;
     }
 }
-class product {
+class Product {
     private String name;
     private double price;
     public product() {
@@ -38,7 +38,7 @@ class product {
         return name;
     }
 
-    public double getPrice(product toothpaste) {
+    public double getPrice() {
         return price;
     }
 }
